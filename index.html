@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .underline {
+            width: 50px;
+            height: 3px;
+            background-color: #2919d4;
+            margin: 10px auto;
+        }
+        .carousel-control-prev, .carousel-control-next {
+            color: #a4002c;
+        }
+        .carousel-indicators [data-bs-target] {
+            background-color: #a4002c;
+            width: 30px;
+            height: 3px;
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+        .card-footer {
+            background: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+       <h1>AHASRA</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="/pages/Accomadation.html">Accommodations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Dining</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <h1>Ahasra Resort & Spa</h1>
+        <p class="lead">Luxury accommodation with an Ocean view</p>
+    </div>
+</header>
+<img src="/assets/images/reisetopia-Vl5DAQxNBbM-unsplash.jpg" class="img-fluid" alt="home">
+  <section class="hero">
+    <p class="text-uppercase text-secondary small">WELCOME TO AHASRA RESORT & SPA</p>
+    <div class="underline"></div>
+    <h1>Unwind in our 5-star Mirissa, Sri Lanka, hotel</h1>
+    <p>A stay at Ahasra Resort & Spa is simply extraordinary. Marvel at the captivating beauty of Sri Lanka’s coast while enjoying our 5-star hotel in Mirissa's amenities, spectacular water views,...</p>
+    <a href="#" class="text-decoration-none fw-bold">See More</a>
+</section>
+<section class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/assets/images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" class="img-fluid rounded" alt="Hotel Room">
+        </div>
+        <div class="col-md-6">
+            <h2>Book Your Stay</h2>
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Check-in Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Check-out Date</label>
+                    <input type="date" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Guests</label>
+                    <select class="form-select">
+                        <option>1 Adult</option>
+                        <option>2 Adults</option>
+                        <option>Family</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Check Availability</button>
+            </form>
+        </div>
+    </div>
+</section>
+<div class="container mt-5">
+    <h2 class="fw-bold">Rooms & Suites</h2>
+    <div id="roomCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/dada_design-QuFlLPJ26_Y-unsplash.jpg" class="card-img-top" alt="Guest Room">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/interior-modern-comfortable-hotel-room.jpg" class="card-img-top" alt="Twin Room">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/kenny-eliason-ZqqwJA71Ke4-unsplash.jpg" class="card-img-top" alt="Suite">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/interior-design-neoclassical-style-with-furnishings-decor (1).jpg" class="card-img-top" alt="Luxury Room">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/lounge-lobby-area-library-sales-center.jpg" class="card-img-top" alt="Suite Room">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="/assets/images/3d-rendering-modern-dining-room-living-room-with-luxury-decor.jpg" class="card-img-top" alt="Deluxe Room">
+                            <div class="card-footer">Guest room →</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#roomCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#roomCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+
+  <div class="container mt-4">
+    <h2 class="mb-3">Offers & Packages</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="offer-card">
+                <a href="/pages/offer.html" target="_blank">
+
+                <img src="/assets/images/jarritos-mexican-soda-dHn_feNlz38-unsplash.jpg" alt="Offer Image">
+                <div class="offer-badge">MEMBER EXCLUSIVE</div>
+                <div class="offer-text">
+                    <p>JANUARY 31, 2025 — APRIL 25, 2025</p>
+                    <p>Rest. Relax. Be Rewarded with 5% off all Stays.</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<section>
+<div class="container mt-5">
+    <h2 class="mb-4">FEATURED AMENITIES ON-SITE</h2>
+    <div class="row amenities">
+        <div class="col-md-4">
+            <p>🌱 Sustainability</p>
+            <p>💪 Fitness Center</p>
+            <p>💼 Meeting Space</p>
+        </div>
+        <div class="col-md-4">
+            <p>🍽️ Restaurant</p>
+            <p>💆 Spa</p>
+            <p>📶 Free Wifi</p>
+        </div>
+        <div class="col-md-4">
+            <p>🍸 Bar</p>
+            <p>🏊 Outdoor Pool</p>
+            <p>🎠 Activities for Kids</p>
+        </div>
+    </div>
+    <a href="#" class="btn btn-link">See More</a>
+
+</div>
+</section>
+
+<section>
+<div class="container mt-6">
+    <br>
+    <h2 class="mb-5">Hotel Information</h2>
+    <div class="row amenities">
+        <div class="col-md-5">
+            <p>🕒 <strong>Check-in:</strong> 3:00 pm</p>
+            <p>🕛 <strong>Check-out:</strong> 12:00 pm</p>
+            <p>🔞 <strong>Minimum Age to Check-In:</strong> 18</p>
+            <p>♿ <strong>Accessibility Features:</strong> Available</p>            
+
+        </div>
+        <div class="col-md-5">
+            <p>🚫 <strong>Pet Policy:</strong> Pets Not Allowed</p>
+            <p>❌ No pets allowed</p>
+            <p>🅿️ <strong>Parking:</strong> Complimentary On-Site Parking</p>
+        <p>Off-Site Parking:Parking Lot 0.1 KM
+        Complimentary Valet Parking
+        Additional Parking Information: Additional Car parking facility is provided</p>
+        </div>
+    
+     
+    </div>
+</div>
+</section>
+
+
+<div class="container-fluid restaurant-section">
+    <div class="row align-items-center">
+        <div class="col-md-5">
+            <h2>Mirissa Kitchen</h2>
+            <p>Sample the scrumptious, globally inspired offerings at Mirissa Kitchen, our signature hotel restaurant. 
+            Casual and inviting, guests can delight in the buffet-style options at breakfast, lunch, or dinner.</p>
+            <button class="explore-btn">Explore</button>
+        </div>
+        <div class="col-md-7">
+            <img src="/assets/images/Restaurant_business_plan_main.jpg" class="img-fluid rounded" alt="Weligama Kitchen">
+        </div>
+    </div>
+ 
+</div>
+<br>
+<section class="Enjoy">
+<h1><b>More Ways to Enjoy Your Stay</b></h1>
+
+</section>
+<section class="shop">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/images/bar.jpeg" class="card-img-top" alt="bar">
+        <div class="card-body">
+          <h5 class="card-title"><b>Let Your Stay Take You Further</b></h5>
+          <p class="card-text">Broaden your experience with us, whether by deepening your knowledge of cocktails in our Greatroom or learning something new with Manchester United.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">    <a href="#" class="btn btn-link">explore</a>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/images/food.jpeg" class="card-img-top" alt="food">
+        <div class="card-body">
+          <h5 class="card-title"><b>Food for Your Journey</b></h5>
+          <p class="card-text">Pick up a fresh snack on your way out or linger over a meal with us. From light bites to classics with a local twist, enjoy food that is familiar yet elevated beyond the expected.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="#" class="btn btn-link">browse Dining options</a></small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/assets/images/pillow.jpeg" class="card-img-top" alt="pillow">
+        <div class="card-body">
+          <h5 class="card-title"><b>Experience Ahasra at Home</b></h5>
+          <p class="card-text">Bring thoughtfully chosen details from our home to yours, from our iconic Marriott Pillow to our bath and body collection.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary"><a href="#" class="btn btn-link">shop now</a></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Links -->
+        <div class="footer-section">
+            
+            <ul  style="text-align: start;">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">accommodations</a></li>
+                <li><a href="#">Dining</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Meeting & Weddings</a></li>
+
+
+            </ul>
+        </div>
+        <!-- Follow Us -->
+        <div class="footer-section">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instergram</a>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="footer-section">
+            <h2>Meet</h2>
+            <p>700 Matara Road,    </br> Kamburugamuwa,   </br>
+
+                    Mirissa,   </br> Sri Lanka, 81700
+            </br>
+                
+                Fax: +94 41-4600101</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy;All Rights Reserved.
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
