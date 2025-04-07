@@ -68,7 +68,34 @@
       .cardBox .card:hover .cardName,
       .cardBox .card:hover .iconBx {
         color: white;
-      }</style>
+      }
+      @media (max-width: 1024px) {
+    .cardBox {
+      grid-template-columns: repeat(2, 1fr);
+      margin-left: 10%;
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cardBox {
+      grid-template-columns: 1fr;
+      margin-left: 15%;
+      max-width: 70%;
+    }
+
+    .cardBox .card {
+      height: auto;
+      padding: 20px;
+    }
+
+    .cardBox .card .iconBx {
+      margin-top: 0;
+      margin-left: 0;
+      font-size: 2.5rem;
+    }
+  }
+      </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
