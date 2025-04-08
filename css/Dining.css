@@ -125,13 +125,13 @@ form input, form button {
 }
 
 form button {
-    background-color: #f2a900;
+    background-color: #157dcd;
     color: #fff;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #e59000;
+    background-color: #157dcd;
 }
 
 
